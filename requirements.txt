@@ -1,0 +1,19 @@
+# SEO Intelligence Platform — Python 3.12
+# Install with: pip install -r requirements.txt
+
+# ── Web scraping & HTTP ────────────────────────────────────────────────────────
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+
+# ── Google Trends ──────────────────────────────────────────────────────────────
+pytrends==4.9.2
+
+# ── Environment variables ──────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── OpenAI (optional — content brief enrichment) ──────────────────────────────
+openai==1.35.3
+
+# ── Data processing ───────────────────────────────────────────────────────────
+# (sqlite3 is part of the standard library — no extra package needed)
